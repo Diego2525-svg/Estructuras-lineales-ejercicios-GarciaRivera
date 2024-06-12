@@ -1,1 +1,1 @@
-Hecho por Karina Garcia
+Hecho por Karina Garcia y Diego Rivera
