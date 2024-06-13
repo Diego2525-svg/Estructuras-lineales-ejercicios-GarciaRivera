@@ -50,4 +50,14 @@ public class ListaEnlazada {
         System.out.println(current.value);
         System.out.println("Fin de la lista");
     }
+
+    public int getSize(){
+        int size = 0;
+        Node current = head;
+        while (current != null) {
+            size++;
+            current = current.next;
+        }
+        return size;
+    }
 }
