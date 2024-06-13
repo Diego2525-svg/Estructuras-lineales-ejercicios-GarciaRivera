@@ -95,11 +95,11 @@ public class App {
         ejem2.mostrarPila(pilaej2);
 
         ListaEnlazada lista = new ListaEnlazada();
+        Ejercicio_03_linkedLists ej3 = new Ejercicio_03_linkedLists();
         lista.addNode(0);
         lista.addNode(3);
         lista.addNode(4);
-        lista.print();
-        lista.deleteNode(0);
-        lista.print();
+        lista.addNode(5);
+        ej3.getByPos(lista,2);
     }
 }
